@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  text-decoration: none;
+  font-family: Arial;
+  margin: 0;
+}
+
+.b-html-dark {
+  background-color: black;
+  color: white;
+}
+
+.b-html-light {
+  background-color: rgb(252, 252, 252);
+  color: rgb(0, 0, 0);
+}/*# sourceMappingURL=styles.css.map */

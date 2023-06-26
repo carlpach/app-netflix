@@ -1,0 +1,8 @@
+
+<h2>TOP 5 MOVIES THIS MONTH</h2>
+<div class="b-gallery">
+    <div class="b-gallery__item" *ngFor="let topMov of topGallery.films; let indexOfelement=index;">
+        <img class="b-gallery__img" src="../../assets/images/{{topGallery.section}}/{{topMov.image}}">
+        <h2 class="b-gallery__number">{{indexOfelement+1}}</h2>
+    </div>
+</div>

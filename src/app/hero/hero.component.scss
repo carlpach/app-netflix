@@ -1,0 +1,28 @@
+.b-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 105px;
+    min-height: 300px;
+}
+
+.b-gallery__item {
+    min-width: 200px;
+    position: relative;
+}
+
+
+.b-gallery__img {
+    width: 90%;
+    position: absolute;
+    z-index: 1;
+}
+
+.b-gallery__number {
+    margin: 0;
+    position: absolute;
+    font-size: 180px;
+    left: -35%;
+    top: 10%;
+    
+}

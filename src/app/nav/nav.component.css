@@ -1,0 +1,15 @@
+.b-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.b-navbar_icon {
+  width: 40px;
+  height: 40px;
+}
+
+.b-navbar_item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}/*# sourceMappingURL=nav.component.css.map */

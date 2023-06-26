@@ -1,0 +1,8 @@
+<h2>{{filmsGallery.section}}</h2>
+
+<div class="b-gallery">
+    <div class="b-gallery__item" *ngFor="let film of filmsGallery.films" >
+            <img class="b-gallery__img" src="../../assets/images/{{filmsGallery.section}}/{{film.image}}">        
+    </div>    
+</div>
+

@@ -1,0 +1,15 @@
+.b-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px
+}
+
+.b-gallery__item {
+    width: 19%;
+    min-width: 300px;
+}
+
+
+.b-gallery__img {
+    width: 100%;
+}
